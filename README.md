@@ -29,10 +29,10 @@ Users should be able to:
 
 ### Screenshot
 
-![Screenshot of the project](./mobile-frontpage.png)
-![Screenshot of the project](./thankyou-desktop.png)
-![Screenshot of the project](./thankyou-mobile.png)
-![Screenshot of the project](./desktop-frontpage.png)
+![Screenshot of the project](mobile-frontpage.png)
+![Screenshot of the project](thankyou-desktop.png)
+![Screenshot of the project](thankyou-mobile.png)
+![Screenshot of the project](desktop-frontpage.png)
 
 ### Links
 
