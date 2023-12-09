@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.css">
+  <link rel="stylesheet" href="./dist/css/main.css">
+  <script src="./js/script.js" defer></script>
+  
+  <title>Frontend Mentor | Newsletter sign-up form with success message</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+
+    <div class="newsletter_wrapper">
+        <div class="newsletter_container">
+            <main>
+                <section class="content-left">
+                    <section class="left-info">
+                        <h1>Stay updated!</h1>
+                        <p>Join 60,000+ product managers receiving monthly updates on:</p>
+                        <ul>
+                            <li> Product discovery and building what matters </li>
+                            <li> Measuring to ensure updates are a success </li>
+                            <li> And much more</li>
+                        </ul>
+                    </section>
+
+
+                    <form action="#">
+                        <div class="form-item">
+                            <label for="email">
+                                <span>Email Address</span>
+                                <span id="invalid-email">valid email required</span>
+                            </label>
+                            <input type="email" name="email" id="email" placeholder="email@company.com">
+                        </div>
+    
+                        <div class="form-item">
+                            <button id="submit-btn" type="button">Subscribe to monthly newsletter</button>
+                        </div>
+                    </form>
+                </section>
+    
+
+
+                <section class="content-right">
+                    <picture>
+                        <source media="(max-width:768px)" srcset="./assets/images/illustration-sign-up-mobile.svg">
+                        <img src="./assets/images/illustration-sign-up-desktop.svg" alt="Desktop illustration">
+                    </picture>
+                </section>  
+            </main>                
+            
+            <article id="confirmed-message">
+                <img src="./assets/images/icon-list.svg" alt="icon list">
+                <h2>Thanks for suscribing</h2>
+                <p>A confirmation email has been sent to <span id="user-email"></span>. Please
+                open it and click the button inside to confirm your suscription.</p>
+
+                <button id="dismiss-msg">Dismiss Message</button>
+            </article>
+
+
+
+            <footer class="attribution">
+                Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+                Coded by <a href="#">Ayoola Gbenga</a>.
+            </footer>
+        </div>
+    </div>
+  
+ 
+</body>
+</html>
